@@ -75,6 +75,21 @@ p {
   margin-left: 12%;
 }
 
+.mywork ul li a img {
+  list-style-type: none;
+  padding: 10px;
+  margin-left: 36%;
+  border-left: 3px solid rgb(156, 0, 0);
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.mywork ul li a:hover img {
+  transform: scale(1.2);
+  box-shadow: 10px 10px 10px #aaaaaa;
+}
+
 .contactme h5 {
   font-size: 34px;
   font-weight: bold;
