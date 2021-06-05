@@ -14,12 +14,16 @@ This page contains 4 image links, contact information, about me, and resume.
 
 ## This page's HTML contains:
 
-- 4 working page jump links in the navigation bar - "About Me" , "My Work", "Contact Me" , "Resume"
+- 4 working page jump/scroll links in the navigation bar - "About Me" , "My Work", "Contact Me" , "Resume"
 - 6 headers
-  - jskf
-- A footer containing a message "I hope you enjoyed your time here!" and a contact information section.
-- 3 images separating the 4 main sections - 1 image with a caption "WELCOME! You've landed on our website!"
-- A section to enter and collect visitor information - Name, email, and number - and a button to send the information.
+  - 2 in the header.
+  - 4 in different sections that the nav links scroll to.
+- An "About Me" section with plain text.
+- 4 image links in the "My Work" section
+  - 1 going to a live webpage with image preview of the page.
+  - 3 going to a youtube video of calming music and image of "coming soon".
+- A "Contact Me" section with phone and email links.
+- A "Resume" section with a pdf resume link.
 
 ## This page's CSS contains:
 - A fixed header - "Welcome to SpaceFax!"
