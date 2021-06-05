@@ -6,6 +6,10 @@
 }
 
 /* Element/Type Selectors */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ddcdcd;
   display: flex;
@@ -75,17 +79,39 @@ p {
   margin-left: 12%;
 }
 
-.mywork ul li a img {
-  list-style-type: none;
+.mywork article {
   padding: 10px;
   margin-left: 36%;
   border-left: 3px solid rgb(156, 0, 0);
   padding: 20px;
-  width: 400px;
-  height: 400px;
 }
 
-.mywork ul li a:hover img {
+.my {
+  display: flex;
+}
+
+.work a img {
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  flex: 50%;
+  padding: 5px;
+}
+
+.work2 a img {
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  flex: 50%;
+  padding: 5px;
+}
+
+.work a:hover img {
+  transform: scale(1.2);
+  box-shadow: 10px 10px 10px #aaaaaa;
+}
+
+.work2 a:hover img {
   transform: scale(1.2);
   box-shadow: 10px 10px 10px #aaaaaa;
 }
@@ -126,6 +152,14 @@ p {
   }
 
   .contactme ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 12px;
+    border-left: 0px;
+    padding: 20px;
+  }
+
+  .mywork article{
     list-style-type: none;
     padding: 10px;
     margin-left: 12px;
