@@ -53,7 +53,7 @@ p {
 .header nav {
   margin-right: 24px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 24px;
 }
 
@@ -67,12 +67,14 @@ p {
   border: 3px solid rgba(0, 0, 0, 0.507);
 }
 
+/* These are the parameters for the 'About Me' section*/
 .aboutme h3 {
   font-size: 34px;
   font-weight: bold;
   margin-left: 12%;
 }
 
+/* These are the parameters for the 'My Work' section*/
 .mywork h4 {
   font-size: 34px;
   font-weight: bold;
@@ -86,6 +88,7 @@ p {
   padding: 20px;
 }
 
+/* These are the parameters to get the images to sit correctly */
 .my {
   display: flex;
 }
@@ -106,6 +109,7 @@ p {
   padding: 5px;
 }
 
+/* These are the parameters to get the image to grow when hovering over the image */
 .work a:hover img {
   transform: scale(1.2);
   box-shadow: 10px 10px 10px #aaaaaa;
@@ -116,6 +120,7 @@ p {
   box-shadow: 10px 10px 10px #aaaaaa;
 }
 
+/* These are the parameters for the 'Contact Me' section */
 .contactme h5 {
   font-size: 34px;
   font-weight: bold;
@@ -130,6 +135,7 @@ p {
   padding: 20px;
 }
 
+/* These are the parameters for the 'Resume' section */
 .Resume h6 {
   font-size: 34px;
   font-weight: bold;
@@ -138,11 +144,13 @@ p {
 
 /* media queries */
 @media screen and (max-width: 676px) {
+  /* This will make the page resize and go into a column when the page is shrunk */
   .header, body {
     flex-direction: column;
     text-align: center;
   }
 
+  /* This will make the separating lines go under the headings instead of next to them*/
   p {
     display: flex;
     word-wrap: break-word;
