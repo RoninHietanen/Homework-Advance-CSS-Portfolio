@@ -124,12 +124,10 @@ p {
 /* These are the parameters to get the image to grow when hovering over the image */
 .work a:hover img {
   transform: scale(1.2);
-  box-shadow: 10px 10px 10px #aaaaaa;
 }
 
 .work2 a:hover img {
   transform: scale(1.2);
-  box-shadow: 10px 10px 10px #aaaaaa;
 }
 
 /* These are the parameters for the 'Contact Me' section */
