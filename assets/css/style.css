@@ -107,7 +107,7 @@ p {
 
 .work a img {
   margin: 10px;
-  width: 400px;
+  width: 350px;
   height: 400px;
   flex: 50%;
   padding: 5px;
@@ -115,7 +115,15 @@ p {
 
 .work2 a img {
   margin: 10px;
-  width: 400px;
+  width: 350px;
+  height: 400px;
+  flex: 50%;
+  padding: 5px;
+}
+
+.work3 a img {
+  margin: 10px;
+  width: 350px;
   height: 400px;
   flex: 50%;
   padding: 5px;
@@ -127,6 +135,10 @@ p {
 }
 
 .work2 a:hover img {
+  transform: scale(1.2);
+}
+
+.work3 a:hover img {
   transform: scale(1.2);
 }
 
