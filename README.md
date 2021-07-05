@@ -13,3 +13,6 @@ This page contains 6 image links - 4 containing live website's I've made and 2 c
 - Visual Studio Code - HTML and CSS
 - GitHub Pages
 
+## Screenshots of the Website:
+
+![Loading Page](/assets/other/portfolio.PNG?raw=true "Optional Title")
