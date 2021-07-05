@@ -121,24 +121,12 @@ p {
   padding: 5px;
 }
 
-.work3 a img {
-  margin: 10px;
-  width: 350px;
-  height: 400px;
-  flex: 50%;
-  padding: 5px;
-}
-
 /* These are the parameters to get the image to grow when hovering over the image */
 .work a:hover img {
   transform: scale(1.2);
 }
 
 .work2 a:hover img {
-  transform: scale(1.2);
-}
-
-.work3 a:hover img {
   transform: scale(1.2);
 }
 
