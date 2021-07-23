@@ -4,124 +4,176 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Ronin's Portfolio</title>
     </head>
 
+    <nav class="navbar is-dark has-navbar-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item title" href="https://roninhietanen.github.io/Ronin_Hietanen_Portfolio/index">Portfolio: Ronin Hietanen</a>
+            
+        </div>
+
+        <div class="navbar-menu is-active">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about-me">About Me</a>
+                <a class="navbar-item" href="#my-work">Work Samples</a>
+                <a class="navbar-item" href="#contact-me">Contact Me</a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">More Information</a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="https://roninhietanen.github.io/Ronin_Hietanen_Portfolio/work">My Work</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="https://roninhietanen.github.io/Ronin_Hietanen_Portfolio/contactsresume">Contacts and Resume</a>
+                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <body>
-        <header class="header">
-            <h1><strong>Portfolio:</strong></h1>
-            <h2>Ronin Hietanen</h2>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+
+        <div class="columns is-half-desktop is-three-quarters-mobile is-two-thirds-tablet">
+            <div class="column column-custom is-one-quarter">
+                <h3 class="title" id="about-me">About Me</h3>
+            </div>
+            <div class="columns column-custom">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-128x128 block">
+                            <img src="./assets/images/pfp.jpg" alt="My Profile Picture">
+                        </figure>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="content">
+                            My name is Ronin Hietanen currently studying web development. I am passionate about web development and the many paths it can lead to. I believe the webpages, applications, etc. that we use today are important in todays society. They allow people from all over to interact, play, create, and much much more together in an easy and simple way. This would not be possible without the existence of such applications.
+                            To be apart of such a rich and thriving community I have undertaken studies to assist me on my path and am always eager to learn more to further push the extent of my capabilities. I am looking for a company that will allow me to learn and freely create in a way that will push me to become better with every future project. If this is you please contact me via email or phone provided in the "Contact Me" section of the page. Thank you for considering me and I look forward to hearing from you!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <br><br>
+
+        <div class="columns is-half-desktop is-three-quarters-mobile is-two-thirds-tablet">
+            <div class="column column-custom is-one-quarter">
+                <h4 class="title" id="my-work">Work Samples</h4>
+            </div>
+            <div class="column">
+                <div class="columns">
+                    <div class="column column-custom">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img alt="Coding Quiz" src="./assets/images/Coding Quiz.PNG">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                              <div class="content">
+                                <p><a href="https://roninhietanen.github.io/Coding_Quiz/">Coding Quiz</a></p>
+                                This is a coding quiz which allows the user to complete 10 multiple-choice questions and stores their score in the local storage. This page also displays the users highest score in the top left corner.
+                              </div>
+                            </div>
+                        </div>
         
-        </header>
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img alt="Password Generator" src="./assets/images/Password Generator.PNG">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                              <div class="content">
+                                <p><a href="https://roninhietanen.github.io/Password_Generator/">Password Generator</a></p>
+                                This is a password generator that allows the user to select specifications for their password and the code will spit out a password with those specifications.
+                              </div>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="column column-custom">
+        
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img alt="Daily Planner" src="./assets/images/DailyPlanner.PNG">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                              <div class="content">
+                                <p><a href="https://roninhietanen.github.io/Daily_Planner/">Daily Planner</a></p>
+                                This is a daily planner that allows the user to input and save text in the local storage. This daily planner will also track the time and turn the corrisponding input field grey once the hour has passsed.
+                              </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img alt="Covid-19 Tracker Webpage" src="./assets/images/Covid-19 Tracker.PNG">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                              <div class="content">
+                                <p><a href="https://mm-salvodragotta.github.io/Covid-19-Tracker/">Covid-19 Tracker</a></p>
+                                This is the first collaborative project I have worked on. It is a Covid-19 Tracker which allowes the user search confirmed, revovered, and deaths from their desired countries and dates.
+                              </div>
+                            </div>
+                        </div>
+         
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <br><br>
         <br><br>
 
-        <article class="aboutme">
-            <h3 id="about-me">About Me</h3>
-            <p>
-                <img src="./assets/images/pfp.jpg" alt="My Profile Picture">
-            </p>
-            <p>
-                My name is Ronin Hietanen currently studying web development. I am passionate about web development and the many paths it can lead to. I believe the webpages, applications, etc. that we use today are important in todays society. They allow people from all over to interact, play, create, and much much more together in an easy and simple way. This would not be possible without the existence of such applications.
-            </p>
-            <p>
-                To be apart of such a rich and thriving community I have undertaken studies to assist me on my path and am always eager to learn more to further push the extent of my capabilities. I am looking for a company that will allow me to learn and freely create in a way that will push me to become better with every future project. If this is you please contact me via email or phone provided in the "Contact Me" section of the page. Thank you for considering me and I look forward to hearing from you!
-            </p>
-
-        </article>
-
-        <br><br>
-        <br><br>
-
-        <section class="mywork">
-            <h4 id="my-work">My Work</h4>
-
-            <article class="my">
-                <div class="work">
-                    <a href="https://roninhietanen.github.io/First_Mini-Project">
-                        <img alt="SpaceFax Webpage" src="./assets/images/SpaceFax.PNG" style="width: 100%">
-                    </a>
-                
-                    <a href="https://roninhietanen.github.io/Password_Generator/">
-                        <img alt="Password Generator" src="./assets/images/Password Generator.PNG" style="width: 100%">
-                    </a>
-
-                    <a href="https://youtu.be/ecEwVyJiij0">
-                        <img alt="Coming Soon - nice music :)" src="./assets/images/Coming Soon.jpg" style="width: 100%">
-                    </a>
+        <div class="columns is-half-desktop is-three-quarters-mobile is-two-thirds-tablet">
+            <div class="column column-custom is-one-quarter">
+                <h5 class="title" id="contact-me">Contact Me</h5>
+            </div>
+            <div class="column column-custom">
+                <div class="card">
+                    <div class="card-content">
+                      <div class="content">
+                        <p><a href="mailto:ronin.hietanen@outlook.com">ronin.hietanen@outlook.com</a></p>
+                        <p><a href="tel:0452380030">0452 380 030</a></p>
+                        <p><a href="https://www.linkedin.com/in/ronin-hietanen-878a50211/">LinkedIn</a></p>
+                      </div>
+                    </div>
                 </div>
                 
-                <br><br>
+            </div>
+        </div>
 
-                <div class="work2">
-                    <a href="https://roninhietanen.github.io/Coding_Quiz/">
-                        <img alt="Coding Quiz" src="./assets/images/Coding Quiz.PNG" style="width: 100%">
-                    </a>
+        <br><br>
+        <br><br>
 
-                    <a href="https://roninhietanen.github.io/Daily_Planner/">
-                        <img alt="Daily Planner" src="./assets/images/DailyPlanner.PNG" style="width: 100%">
-                    </a>
-
-                    <a href="https://youtu.be/ecEwVyJiij0">
-                        <img alt="Coming Soon - nice music :)" src="./assets/images/Coming Soon.jpg" style="width: 100%">
-                    </a>
+        <div class="columns is-half-desktop is-three-quarters-mobile is-two-thirds-tablet">
+            <div class="column column-custom is-one-quarter">
+                <h6 class="title" id=resume>Resume</h6>
+            </div>
+            <div class="column column-custom">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="content">
+                            <p><a href="./assets/other/Resume - Ronin Hietanen.pdf">Resume - Ronin Hietanen</a></p>
+                        </div>
+                    </div>
                 </div>
+               
+            </div>
+        </div>
 
-                <br><br>
-
-            </article>
-            
-        </section>
-
-        <br><br>
-        <br><br>
-
-        <section class="contactme">
-            <h5 id="contact-me">Contact Me</h5>
-
-            <ul>
-                <li>
-                    <a href="mailto:ronin.hietanen@outlook.com">ronin.hietanen@outlook.com</a>
-                </li>
-                <li>
-                    <a href="tel:0452380030">0452 380 030</a>
-                </li>
-            </ul>
-        
-        </section>
-
-        <br><br>
-        <br><br>
-
-        <section class="Resume">
-            <h6 id=resume>Resume</h6>
-            
-            <br><br>
-
-            <p>My Resume <a href="./assets/other/Resume - Ronin Hietanen.pdf">Resume - Ronin Hietanen</a></p>
-        </section>
-
-        <br><br>
-        <br><br>
 
     </body>
 
