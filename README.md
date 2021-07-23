@@ -15,8 +15,8 @@ This page contains 6 image links - 4 containing live website's I've made and 2 c
 
 ## Screenshots of the Website:
 
-![Loading Page](/assets/other/portfolioscreenshot.PNG?raw=true "Loading Page")
+![Loading Page](/assets/other/profolioscreenshot.PNG?raw=true "Loading Page")
 
-![My Work Page](/assets/other/portfolioscreenshot2.PNG?raw=true "My Work Page")
+![My Work Page](/assets/other/profolioscreenshot2.PNG?raw=true "My Work Page")
 
-![Contacts and Resume Page](/assets/other/portfolioscreenshot3.PNG?raw=true "Contacts and Resume Page")
+![Contacts and Resume Page](/assets/other/profolioscreenshot3.PNG?raw=true "Contacts and Resume Page")
