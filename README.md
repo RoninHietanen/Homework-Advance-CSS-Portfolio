@@ -12,6 +12,7 @@ This page contains 6 image links - 4 containing live website's I've made and 2 c
 ## This page was created using:
 - Visual Studio Code - HTML and CSS
 - GitHub Pages
+- Bulma
 
 ## Screenshots of the Website:
 
